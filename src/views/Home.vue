@@ -20,6 +20,5 @@ export default defineComponent({
 <style lang="scss" scoped>
 .img {
   display: inline;
-  float: none;
 }
 </style>
