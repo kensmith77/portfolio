@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" class="img" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
   </div>
 </template>
@@ -16,3 +16,10 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.img {
+  display: inline;
+  float: none;
+}
+</style>
